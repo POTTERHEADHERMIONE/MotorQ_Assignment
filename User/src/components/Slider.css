@@ -1,0 +1,43 @@
+#slider {
+    position: relative;
+  }
+  
+  .banner-section {
+    background: #000; /* Dark background for contrast */
+    color: #fff;
+  }
+  
+  .carousel-caption {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+  
+  .slider-buttons {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+  }
+  
+  .prev-button, .next-button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+  }
+  
+  .next-button {
+    position: absolute;
+    right: 0;
+  }
+  
+  .prev-button {
+    position: absolute;
+    left: 0;
+  }
+  
+  img {
+    max-height: 100%;
+    object-fit: cover;
+  }
+  

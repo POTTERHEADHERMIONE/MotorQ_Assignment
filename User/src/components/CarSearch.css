@@ -1,0 +1,51 @@
+/* Apply styles to the container of the search form */
+#car-search {
+    background: rgba(74, 209, 224, 0.581); /* Translucent white background */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Add padding */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    color:black/* Soft shadow for depth */
+}
+
+/* Apply translucent effect to the .pb-1 class */
+.pb-1 {
+    background: rgba(0, 0, 0, 0.5); /* Translucent white background */
+    border-radius: 8px; /* Rounded corners (if needed) */
+    padding: 10px; /* Padding if necessary */
+}
+
+/* Style for the form select elements */
+.form-select {
+    background: rgba(255, 255, 255, 0.877); /* Slightly opaque white background */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px; /* Add padding inside the select */
+    font-size: 16px; /* Font size */
+    color: #333; /* Dark text color */
+}
+
+/* Add some margin and padding for the form options */
+.form-select option {
+    padding: 10px; /* Padding for options */
+}
+
+/* Style for the search button */
+.search-btn {
+    background-color: #164980; /* Primary color */
+    border: none; /* Remove default border */
+    color: white; /* Text color */
+    padding: 12px 20px; /* Padding for the button */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+}
+
+/* Add hover effect for the search button */
+.search-btn:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    cursor: pointer; /* Pointer cursor */
+}
+
+/* Ensure the button is responsive */
+.search-btn {
+    width: 100%; /* Full width on smaller screens */
+}

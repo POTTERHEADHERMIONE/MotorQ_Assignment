@@ -1,0 +1,12 @@
+[
+    {
+        "email": "admin@batuhanozturk.com",
+        "password": "123456",
+        "role": "admin"
+    },
+    {
+        "email": "user@batuhanozturk.com",
+        "password": "123456",
+        "role": "user"
+    }
+]
