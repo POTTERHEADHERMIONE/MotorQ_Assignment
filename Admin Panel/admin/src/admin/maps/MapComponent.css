@@ -1,0 +1,69 @@
+/* MapComponent.css */
+
+.map-component {
+  position: relative;
+  overflow: hidden;
+}
+
+.map-container {
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+
+.map-title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.nav-toggle {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.side-navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 250px;
+  height: 100%;
+  background-color: #000000;
+  color: #fff;
+  overflow-y: auto;
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+  z-index: 9;
+}
+
+.side-navbar.open {
+  transform: translateX(0);
+}
+
+.navbar-content {
+  padding: 20px;
+}
+
+.booking-button {
+  display: block;
+  width: calc(100% - 20px);
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.booking-button:hover {
+  background-color: #097e84;
+}

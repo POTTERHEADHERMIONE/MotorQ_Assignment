@@ -1,0 +1,127 @@
+.container {
+    max-width: 900px;  // Decrease max-width for a more compact container
+    margin: 0 auto;
+    padding: 20px;  // Reduce padding for less spacing
+    background-color: #fdfdfd;  // Darker background for better contrast
+    border-radius: 12px;  // Slightly decrease border-radius
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);  // Slightly smaller shadow
+    color: #000000;  // Light grey text for better readability
+    display: flex;  // Use flexbox to center content
+    flex-direction: column;  // Align items in a column
+    align-items: center;  // Center items horizontally
+    justify-content: center;  // Center items vertically
+    min-height: 600px;  // Ensure container takes full viewport height
+}
+
+h1 {
+    font-size: 2rem;  // Decrease font size for less emphasis
+    text-align: center;
+    margin-bottom: 20px;  // Decrease bottom margin
+    color: #000000;
+}
+
+.form-container {
+    background-color: #ffffff;  // Slightly lighter dark background
+    padding: 20px;  // Reduce padding for more compact spacing
+    border-radius: 12px;  // Slightly decrease border-radius
+    width: 100%;  // Ensure it takes full width of its container
+    max-width: 700px;  // Decrease maximum width for a more compact layout
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);  // Slightly smaller shadow
+    display: flex;  // Use flexbox to center content
+    flex-direction: column;  // Align items in a column
+    align-items: center;  // Center items horizontally
+}
+
+.loading-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #f8f9fa;
+}
+
+.table {
+    background-color: #ffffff;  // Slightly darker table background
+    border-color: #495057;
+    color: #050505;
+    font-size: 1rem;  // Decrease font size for a more compact table
+    width: 100%;  // Ensure table takes full width of its container
+    margin-bottom: 15px;  // Decrease margin below table for less spacing
+
+    th, td {
+        vertical-align: middle;
+        border-color: #495057;
+        padding: 12px;  // Decrease padding for smaller cells
+    }
+
+    th {
+        background-color: #ffffff;  // Darker header background
+        color: #000000;
+    }
+
+    tr:nth-child(even) {
+        background-color: #ffffff;  // Alternate row color for better contrast
+    }
+
+    tr:hover {
+        background-color: #ffffff;  // Slightly lighter hover effect
+    }
+}
+
+input[type="text"] {
+    background-color: #ffffff;
+    color: #0e0e0e;
+    border-color: #6c757d;
+    font-size: 1rem;  // Decrease font size for a more compact input
+    padding: 8px;  // Reduce padding for smaller input fields
+    border-radius: 6px;  // Decrease border-radius
+    width: 100%;  // Ensure input takes full width of its container
+    box-sizing: border-box;  // Include padding and border in element's total width and height
+}
+
+input[type="text"]::placeholder {
+    color: #adb5bd;
+}
+
+button {
+    font-size: 1rem;  // Decrease button font size
+    padding: 8px 16px;  // Reduce padding for smaller buttons
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border-radius: 6px;  // Decrease border-radius
+    margin: 5px;  // Add margin for spacing between buttons
+
+    &:hover {
+        transform: scale(1.02);  // Slightly smaller scale effect on hover
+    }
+}
+
+.btn-primary {
+    background-color: #17a2b8;  // Slightly different color for Add New
+    border-color: #17a2b8;
+
+    &:hover {
+        background-color: #138496;
+    }
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+
+    &:hover {
+        background-color: #bd2130;
+    }
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+    display: block;
+    width: 100%;
+    margin-top: 20px;  // Decrease margin-top for better spacing
+    padding: 12px;  // Reduce padding for a smaller button
+
+    &:hover {
+        background-color: #218838;
+    }
+}

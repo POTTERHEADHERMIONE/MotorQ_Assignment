@@ -1,0 +1,7 @@
+{
+  "locations": [
+    { "name": "Bengaluru", "latitude": 12.7409, "longitude": 77.8253 },
+    { "name": "Pune", "latitude": 18.5204, "longitude": 73.8567 },
+    { "name": "Hyderabad", "latitude": 17.3850, "longitude": 78.4867 }
+  ]
+}
